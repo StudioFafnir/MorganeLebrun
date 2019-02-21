@@ -46,3 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Action sur le mail */
+
+#mail, #mail:hover, #mail:visited:hover, #mail:visited {
+    text-decoration: none;
+	color:rgb(244, 244, 244);
+	font-weight: 300;
+}
+#mail, #mail:hover, #mail:visited:hover, #mail:active, #mail:active:hover {
+    outline: none;
+}

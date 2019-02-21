@@ -41,7 +41,37 @@ h3 {
     padding-bottom: 44px;
 }
 
+#work h3 {
+    width: 142px;
+    height: 24px;
+    font-family: JosefinSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 6.7px;
+    color: rgb(51,51,51);
+    padding-top: 34px;
+    padding-bottom: 44px;
+}
+
 p {
+    width: 660px;
+    height: 318px;
+    font-family: JosefinSans;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#home p {
     width: 660px;
     height: 318px;
     font-family: JosefinSans;
@@ -56,7 +86,7 @@ p {
 }
 
 header {
-    width: 1440px;
+    /* width: 1440px; */
     height: 101px;
     background-color: #f34232;
     display: flex;
@@ -65,7 +95,7 @@ header {
 }
  
 #home {
-    width: 1440px;
+    /* width: 1440px; */
     height: 783px;
     background-color: #5345a3;
     display: flex;
@@ -76,7 +106,7 @@ header {
 }
 
 #work {
-    width: 1440px;
+    /* width: 1440px; */
     height: 748px;
     background-color: #f4f4f4;
     display: flex;
@@ -87,8 +117,8 @@ header {
 }
 
 #contact {
-    width: 1440px;
-    height: 484px;
+    /* width: 1440px;
+    height: 484px; */
     background-color: #f27126;
     display: flex;
     flex-wrap: wrap;
@@ -98,8 +128,8 @@ header {
 }
 
 footer {
-    width: 1440px;
-    height: 136px;
+    /* width: 1440px; */
+    height: 101px;
     background-color: #f34232;
     display: flex;
     align-items: center;
@@ -123,19 +153,28 @@ img {
 a {
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+#mail {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex
+    flex-wrap:wrap;
 }
 
 section {
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap; */
 }
 
 section a {
-    margin: 20px;
+    margin: 0px 20px;
     color: rgb(244, 244, 244);
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     display:flex;
     flex-wrap:wrap;
 }
@@ -153,4 +192,17 @@ section a {
     text-align: center;
     color: #f4f4f4;
     margin:auto;
+}
+
+/* Action sur le mail */
+
+#mail, #mail:visited 
+{
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgba(244, 244, 244, 1);
+}
+
+#mail:hover {
+	color: rgba(244, 244, 244, .5);
+	border-bottom: 1px solid rgba(244, 244, 244, .5);
 }
